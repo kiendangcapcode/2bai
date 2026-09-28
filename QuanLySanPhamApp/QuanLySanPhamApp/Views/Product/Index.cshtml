@@ -1,0 +1,31 @@
+﻿@model IEnumerable<QuanLySanPhamApp.Models.Product>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<div class="container mt-4">
+    <h2 class="text-primary mb-3">DANH SÁCH SẢN PHẨM</h2>
+
+    <!-- Bảng HTML hiển thị danh sách -->
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Mã SP (ID)</th>
+                <th scope="col">Tên sản phẩm</th>
+                <th scope="col">Giá bán (VNĐ)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Dùng vòng lặp foreach trong Razor để duyệt qua Model *@
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price.ToString("N0") VNĐ</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

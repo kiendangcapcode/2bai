@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Trang chủ";
+
+    // Kiem tra thu 7 hay cn khong
+    var today = DateTime.Now.DayOfWeek;
+    bool isWeekend = (today == DayOfWeek.Saturday || today == DayOfWeek.Sunday);
+}
+
+<div class="text-center" style="margin-top: 50px;">
+    @if (isWeekend)
+    {
+        <h1 style="color: #28a745; font-weight: bold;">Have nice weekend</h1>
+    }
+    else
+    {
+        <h3>Hôm nay là @today. </h3>
+    }
+</div>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chua-it\\source\\repos\\KiemTraCuoiTuan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC544B4C-3517-4E31-97DB-3EC79F45BC30}|KiemTraCuoiTuan\\KiemTraCuoiTuan.csproj|c:\\users\\chua-it\\source\\repos\\kiemtracuoituan\\kiemtracuoituan\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC544B4C-3517-4E31-97DB-3EC79F45BC30}|KiemTraCuoiTuan\\KiemTraCuoiTuan.csproj|solutionrelative:kiemtracuoituan\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chua-it\\source\\repos\\KiemTraCuoiTuan\\KiemTraCuoiTuan\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "KiemTraCuoiTuan\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chua-it\\source\\repos\\KiemTraCuoiTuan\\KiemTraCuoiTuan\\Pages\\Index.cshtml",
+              "RelativeToolTip": "KiemTraCuoiTuan\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-28T01:12:26.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
